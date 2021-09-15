@@ -31,4 +31,4 @@ jobs:
     - name: Install surge
       run: npm install -g surge
     - name: Run Surge 
-    - run: npx surge ./ expense-trancker12.surge.sh --token ${{token.SURGE_SECRET}}
+    - run: npx surge ./ expense-trancker12.surge.sh --token ${{secrets.SURGE_SECRET}}
